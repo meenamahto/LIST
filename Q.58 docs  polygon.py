@@ -1,0 +1,9 @@
+n=int(input("Enter your number which you want polygon :"))
+i=1
+sum=0
+c=0
+while i<=n:
+    sum=n*n
+    c=(n-1)*(n-1)
+    i=i+1
+print("the area of polygon=",sum+c)
